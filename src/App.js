@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './Header';
+import Sidebar from './Sidebar';
+import MainContent from './MainContent';
+import ProjectPage from './ProjectPage';
+import './App.css'; // Import your main styles
+import ContactForm from './ContactForm';
+import { Routes, Route } from 'react-router-dom';
+import PersonalInfo from './PersonalInfo';
 
-function App() {
+const App = () => {
+  const [sidebarVisible, setSidebarVisible] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarVisible(!sidebarVisible);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="app-container">
+
+
+      <button className="sidebar-toggle" onClick={toggleSidebar}>
+        Menu
+      </button>
+
+      <div className="main-content">
+        <div className={`sidebar ${sidebarVisible ? 'show' : ''}`}>
+          <Sidebar />
+        </div>
+        <div className="header-and-content">
+
+          <Routes>
+            <Route path='/about' element={<ContactForm />} />
+            <Route path='/' element={<MainContent />} />
+            <Route path='/personal' element={<PersonalInfo />} />
+          </Routes>
+
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
