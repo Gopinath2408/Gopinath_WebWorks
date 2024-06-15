@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import MainContent from './MainContent';
-import ProjectPage from './ProjectPage';
 import './App.css'; // Import your main styles
 import ContactForm from './ContactForm';
 import { Routes, Route } from 'react-router-dom';
@@ -17,8 +16,6 @@ const App = () => {
 
   return (
     <div id="app-container">
-
-
       <button className="sidebar-toggle" onClick={toggleSidebar}>
         Menu
       </button>
@@ -28,13 +25,13 @@ const App = () => {
           <Sidebar />
         </div>
         <div className="header-and-content">
-
+          <Header />
           <Routes>
+            <Route path='/home' element={<MainContent />} />
             <Route path='/about' element={<ContactForm />} />
             <Route path='/' element={<MainContent />} />
             <Route path='/personal' element={<PersonalInfo />} />
           </Routes>
-
         </div>
       </div>
     </div>

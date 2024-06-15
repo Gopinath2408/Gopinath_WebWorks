@@ -12,7 +12,7 @@ import ProjectPage from './ProjectPage'; // Import the ProjectPage component
 const MainContent = () => {
   return (
     <div id="content">
-      <Header />
+     
       <div id="navigation" className="nav-bar">
         <a href="#qualifications" className="nav-button">Qualifications</a>
         <a href="#skills" className="nav-button">Skills</a>
