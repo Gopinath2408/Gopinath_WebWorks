@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Gopinath_WebWorks/static/css/main.be133d0c.css",
-    "main.js": "/Gopinath_WebWorks/static/js/main.2c2715b7.js",
-    "static/js/453.ed3810f9.chunk.js": "/Gopinath_WebWorks/static/js/453.ed3810f9.chunk.js",
-    "static/media/professional_photo.jpg": "/Gopinath_WebWorks/static/media/professional_photo.255e3f226bd1d41baac1.jpg",
-    "static/media/physics.png": "/Gopinath_WebWorks/static/media/physics.86c8d9eba03e29814d2a.png",
-    "static/media/java.png": "/Gopinath_WebWorks/static/media/java.ddf8676bd569fe01ab44.png",
-    "static/media/database.png": "/Gopinath_WebWorks/static/media/database.1e8ddea96a1268f5dd8f.png",
-    "static/media/css.png": "/Gopinath_WebWorks/static/media/css.a99499f2456860f22b3a.png",
-    "static/media/html.png": "/Gopinath_WebWorks/static/media/html.485b6e20561ff56f5e38.png",
+    "main.css": "/Gopinath_WebWorks/static/css/main.f8dba108.css",
+    "main.js": "/Gopinath_WebWorks/static/js/main.e93b92f2.js",
+    "static/js/213.ede2cc13.chunk.js": "/Gopinath_WebWorks/static/js/213.ede2cc13.chunk.js",
+    "static/js/732.8b626db9.chunk.js": "/Gopinath_WebWorks/static/js/732.8b626db9.chunk.js",
+    "static/media/shoe_shop.png": "/Gopinath_WebWorks/static/media/shoe_shop.c0871101c15269ae44ef.png",
+    "static/media/HrPortal.png": "/Gopinath_WebWorks/static/media/HrPortal.b08214b6f4e403ca1ebd.png",
+    "static/media/chatApp.png": "/Gopinath_WebWorks/static/media/chatApp.44b1fc4eff18a370664a.png",
     "index.html": "/Gopinath_WebWorks/index.html",
-    "main.be133d0c.css.map": "/Gopinath_WebWorks/static/css/main.be133d0c.css.map",
-    "main.2c2715b7.js.map": "/Gopinath_WebWorks/static/js/main.2c2715b7.js.map",
-    "453.ed3810f9.chunk.js.map": "/Gopinath_WebWorks/static/js/453.ed3810f9.chunk.js.map"
+    "main.f8dba108.css.map": "/Gopinath_WebWorks/static/css/main.f8dba108.css.map",
+    "main.e93b92f2.js.map": "/Gopinath_WebWorks/static/js/main.e93b92f2.js.map",
+    "213.ede2cc13.chunk.js.map": "/Gopinath_WebWorks/static/js/213.ede2cc13.chunk.js.map",
+    "732.8b626db9.chunk.js.map": "/Gopinath_WebWorks/static/js/732.8b626db9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be133d0c.css",
-    "static/js/main.2c2715b7.js"
+    "static/css/main.f8dba108.css",
+    "static/js/main.e93b92f2.js"
   ]
 }
